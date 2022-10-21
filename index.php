@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como surgiu o mascote do android</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="/assets/">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
             <a href="#">Home</a>
             <a href="#primeiraversao">Notícias</a>
             <a href="#more">Curiosidades</a>
-            <a href="#gg">Fale conosco</a>
+            <a href="view/form.php">Fale conosco</a>
         </nav>
     </div>
     <main>
