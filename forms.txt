@@ -1,4 +1,0 @@
-Nome
-assunto
-mensagem
-e botão de enviar

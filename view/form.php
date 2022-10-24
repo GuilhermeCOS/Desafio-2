@@ -17,7 +17,7 @@
     <div class="links">
         <nav>
             <a href="#">Home</a>
-            <a href="../index.html" target="_blank" rel="previous">Site Oficial</a>
+            <a href="../index.php" target="_blank" rel="previous">Site Oficial</a>
             <a href="#mensagem">Denuncia</a>
         </nav>
     </div>
