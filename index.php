@@ -26,7 +26,7 @@
               <a href="#">Home</a>
               <a href="#primeiraversao">Notícias</a>
               <a href="#more">Curiosidades</a>
-              <a href="view/form.php">Fale conosco</a>
+              <a href="view/form.html">Fale conosco</a>
           </nav>
       </div>
     </div>

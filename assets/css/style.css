@@ -117,9 +117,9 @@ nav a {
 
 
 nav>a:hover {
-    background-color: var(--cor2);
-    color: var(--cor4)
-}
+        background-color: var(--cor2);
+        color: var(--cor4)
+    }
 
 main {
     min-width: 300px;

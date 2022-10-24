@@ -1,18 +1,9 @@
     @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
-    font-weight: normal;
-
-    font-family: 'Android';
-    src: url('../assets/fonts/idroid.otf') format('opentype');
-}
+    *{
+        padding: 0px;
+        border: 0px;
+    }
 
 :root {
     --cor0: #c5ebd6;
@@ -21,69 +12,115 @@
     --cor3: #2fa866;
     --cor4: #1a5c37;
     --cor5: #063d1e;
-
-    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque: 'Bebas Neue', sans-serif;
-    --font-android: 'Android', sans-serif
 }
 
-header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
-    min-height: 150px;
-    text-align: center;
-    padding: 60px;
-    font-family: var(--font-android);
- 
-    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83e1ad;
+    margin: 0px;
+
 }
 
-
-    body{
-        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
-        margin-top: 2%;
-        justify-content: center;
-        font-family: var(--font-padrao);
-        min-width: 320px;
-        max-width: 1100px;
-    }
-
-    h1{
-        font-family: var(--font-android);
-        font-size: 3em;
-    }
-      
-        p{
-            font-size: 1.2em;
-            font-family: var(--font-destaque);
-        }
+    header{
+        background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+        min-height: 150px;
+        text-align: center;
+        padding: 60px;
         
+    }
     
-    
-        fieldset{
-            border: 0
-            }
+   h1{
+    color: white;
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+   }
 
-textarea{
-    width: 26em;
-    height: 13m;
+    p{
+        color: white;
+        font-family: var(--font-padrao);
+        font-size: 1.2em;
+        max-width: 500px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+    }
+
+.content {
+    display: flex;
+    justify-content: center;
 }
-
-input, button, textarea{
+.contato {
+    width: 100%;
+    max-width: 500px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.field {
+    padding: 10px;
+    margin-bottom: 7px;
+}
+textarea {
+    height: 150px;
+}
+.butao {
+    padding: 8px;
 }
 
-    .campo{
-        margin-bottom: 1em;
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 9x black;
+}
 
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+    display: inline-block;
     }
-    .campo label{
-        margin-bottom: 0.2em;
-        display: block
+    
+    .links{
+        text-align: center;
+    }
+    
+    nav a:hover{
+        background-color: var(--cor2);
+    color: var(--cor4)
+    }
+    
+    main{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 
+    footer {
+        background-color: var(--cor5);
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+        padding: 2px; 
     }
-    .campo input[type="text"], .campo input[type="email"], .campo textarea{
-        padding: 0.2em;
-        border: 1px solid #1a5c37;
-        box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
-        display: block;
+    
+    footer a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
     }
+    
+    footer a:hover {
+        text-decoration: underline;
+        color: #2fa866;
+    }
+    
