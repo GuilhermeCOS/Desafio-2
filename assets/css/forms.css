@@ -1,0 +1,89 @@
+    @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+
+    font-family: 'Android';
+    src: url('../assets/fonts/idroid.otf') format('opentype');
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', sans-serif;
+    --font-android: 'Android', sans-serif
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding: 60px;
+    font-family: var(--font-android);
+ 
+    
+}
+
+
+    body{
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+        margin-top: 2%;
+        justify-content: center;
+        font-family: var(--font-padrao);
+        min-width: 320px;
+        max-width: 1100px;
+    }
+
+    h1{
+        font-family: var(--font-android);
+        font-size: 3em;
+    }
+      
+        p{
+            font-size: 1.2em;
+            font-family: var(--font-destaque);
+        }
+        
+    
+    
+        fieldset{
+            border: 0
+            }
+
+textarea{
+    width: 26em;
+    height: 13m;
+}
+
+input, button, textarea{
+    border-radius: 5px;
+}
+
+    .campo{
+        margin-bottom: 1em;
+
+    }
+    .campo label{
+        margin-bottom: 0.2em;
+        display: block
+
+    }
+    .campo input[type="text"], .campo input[type="email"], .campo textarea{
+        padding: 0.2em;
+        border: 1px solid #1a5c37;
+        box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+        display: block;
+    }
